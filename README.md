@@ -23,4 +23,4 @@ static inline void *p(size_t size, char *file, int line)
 }
 
 #define malloc(x) p((x), __FILE__, __LINE__)
-```c 
+
